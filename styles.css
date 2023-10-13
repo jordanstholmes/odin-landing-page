@@ -1,3 +1,23 @@
+
+/*
+Dark background color (hero and footer)
+  #1f2937
+Hero Main Text:
+  48px extra-bold #f9faf8
+Hero secondary text, Header Link Text
+  18px #e5e7eb
+Header logo text
+  24px #f9faf8
+Button color, call to action background color
+  #3882f6
+Information header text
+  36px extra-bold #1f2937
+Quote section background color
+  #e5e7eb
+Quote text
+  36px light italic #1f2937
+*/
+
 .test {
   width: 200px;
   height: 200px;
