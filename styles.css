@@ -17,13 +17,51 @@ Quote section background color
 Quote text
   36px light italic #1f2937
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
-.header {
+:root {
+  --secondary-text: 18px "Roboto", sans-serif;
+  --seconardy-text-color: #e5e7eb;
+  --logo-color: #f9faf8;
+  --main-color: #1f2937;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
   font-family: 'Roboto', sans-serif;
 }
 
-.test {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+
+/* || HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+  padding: 16px 200px;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+
+.header-links a {
+  color: var(--seconardy-text-color);
+  font: var(--secondary-text);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--logo-color);
 }
