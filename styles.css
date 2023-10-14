@@ -21,7 +21,7 @@ Quote text
 
 :root {
   --secondary-text: 18px "Roboto", sans-serif;
-  --seconardy-text-color: #e5e7eb;
+  --secondary-text-color: #e5e7eb;
   --logo-color: #f9faf8;
   --main-color: #1f2937;
   --secondary-color: #3882f6;
@@ -47,7 +47,7 @@ body {
   border: none;
   border-radius: 6px;
   background-color: var(--secondary-color);
-  color: var(--seconardy-text-color);
+  color: var(--secondary-text-color);
   font-weight: 700;
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 .header-links a {
-  color: var(--seconardy-text-color);
+  color: var(--secondary-text-color);
   font: var(--secondary-text);
 }
 
@@ -102,7 +102,7 @@ body {
 
 .hero-secondary-text {
   font-size: 18px;
-  color: var(--seconardy-text-color);
+  color: var(--secondary-text-color);
 }
 
 .hero-img {
@@ -151,4 +151,24 @@ body {
 
 .info-item > p {
   color: gray;
+}
+
+/* || TESTIMONIAL SECTION */
+.testimonial {
+  background-color: var(--secondary-text-color);
+  padding: 120px 400px;
+}
+
+.testimonial > p {
+  font-size: 36px;
+  font-style: italic;
+  text-align: left;
+  color: #1f2937;
+
+}
+
+.testimonial > div {
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
 }
