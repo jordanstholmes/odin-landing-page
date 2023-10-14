@@ -114,3 +114,41 @@ body {
   align-items: center;
   color: white;
 }
+
+/* || INFORMATION SECTION */
+.information {
+  padding: 32px 0px 52px 0px;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 52px;
+  text-align: center;
+}
+
+.info-item-list {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+  text-align: center;
+}
+
+.info-item > div {
+  border: 4px solid var(--secondary-color);
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.info-item > p {
+  color: gray;
+}
