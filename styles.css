@@ -24,6 +24,7 @@ Quote text
   --seconardy-text-color: #e5e7eb;
   --logo-color: #f9faf8;
   --main-color: #1f2937;
+  --secondary-color: #3882f6;
 }
 
 ul {
@@ -40,6 +41,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* || UTILITIES */
+.btn-1 {
+  padding: 8px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--secondary-color);
+  color: var(--seconardy-text-color);
+  font-weight: 700;
+}
 
 /* || HEADER */
 .header {
@@ -64,4 +74,43 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: var(--logo-color);
+}
+
+/* || HERO */
+.hero {
+  padding: 150px 200px;
+  background-color: var(--main-color);
+  display: flex;
+  gap: 32px;
+}
+
+.hero > * {
+  flex: 1;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: end;
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--logo-color);
+  margin: 0;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: var(--seconardy-text-color);
+}
+
+.hero-img {
+  width: 500px;
+  height: 250px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
