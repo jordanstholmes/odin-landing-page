@@ -49,6 +49,7 @@ body {
   background-color: var(--secondary-color);
   color: var(--secondary-text-color);
   font-weight: 700;
+  font-size: 18px;
 }
 
 /* || HEADER */
