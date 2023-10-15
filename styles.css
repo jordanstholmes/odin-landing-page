@@ -42,7 +42,8 @@ body {
 }
 
 /* || UTILITIES */
-.btn-1 {
+.btn-1,
+.btn-2 {
   padding: 8px 24px;
   border: none;
   border-radius: 6px;
@@ -52,14 +53,6 @@ body {
   font-size: 18px;
 }
 .btn-2 {
-  padding: 8px 24px;
-  border: none;
-  border-radius: 6px;
-  background-color: var(--secondary-color);
-  color: var(--secondary-text-color);
-  font-weight: 700;
-  font-size: 18px;
-
   border: 2px solid white;
 }
 
@@ -208,3 +201,4 @@ body {
   font-size: 20px;
   margin-bottom: 6px;
 }
+
