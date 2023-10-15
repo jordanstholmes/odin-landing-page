@@ -51,6 +51,17 @@ body {
   font-weight: 700;
   font-size: 18px;
 }
+.btn-2 {
+  padding: 8px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--secondary-color);
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+
+  border: 2px solid white;
+}
 
 /* || HEADER */
 .header {
@@ -172,4 +183,28 @@ body {
   text-align: right;
   font-weight: 700;
   font-size: 20px;
+}
+
+
+/* || CTA SECTION */
+.cta {
+  padding: 150px 200px;
+}
+
+.cta-box {
+  background-color: var(--secondary-color);
+  padding: 54px 150px;
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+.cta-left > * {
+  color: white;
+  margin: 0;
+}
+
+.cta-left > h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
 }
